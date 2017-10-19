@@ -12,31 +12,25 @@
   <% end %>
 
   <div class="field">
-    <%= form.label :image %>
-    <%= form.text_field :image, id: :course_image %>
+    <%= form.text_field :image, id: :course_image, placeholder: "Image" %>
   </div>
 
   <div class="field">
-    <%= form.label :video %>
-    <%= form.text_field :video, id: :course_video %>
+    <%= form.text_field :video, id: :course_video, placeholder: "Video" %>
   </div>
 
   <div class="field">
-    <%= form.label :title %>
-    <%= form.text_field :title, id: :course_title %>
+    <%= form.text_field :title, id: :course_title, placeholder: "Title" %>
   </div>
 
   <div class="field">
-    <%= form.label :star %>
-    <%= form.number_field :star, id: :course_star %>
+    <%= form.number_field :star, id: :course_star, placeholder: "Star" %>
   </div>
 
   <div class="field">
-    <%= form.label :description %>
-    <%= form.text_area :description, id: :course_description %>
+    <%= form.text_area :description, id: :course_description, placeholder: "Description", length: "800", class: "materialize-textarea" %>
   </div>
 
-  <div class="actions">
-    <%= form.submit %>
-  </div>
+  <button class="btn", type="submit">Submit</button>
+  <%= link_to "Go to all courses", courses_path, class: "btn" %>
 <% end %>
