@@ -1,0 +1,38 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+Application	config/application.rb	/^  class Application < Rails::Application$/;"	c	class:SimpleUdemy	inherits:Rails.Application
+ApplicationCable	app/channels/application_cable/channel.rb	/^module ApplicationCable$/;"	m
+ApplicationCable	app/channels/application_cable/connection.rb	/^module ApplicationCable$/;"	m
+ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c	inherits:ActionController.Base
+ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+ApplicationJob	app/jobs/application_job.rb	/^class ApplicationJob < ActiveJob::Base$/;"	c	inherits:ActiveJob.Base
+ApplicationMailer	app/mailers/application_mailer.rb	/^class ApplicationMailer < ActionMailer::Base$/;"	c	inherits:ActionMailer.Base
+ApplicationRecord	app/models/application_record.rb	/^class ApplicationRecord < ActiveRecord::Base$/;"	c	inherits:ActiveRecord.Base
+ApplicationSystemTestCase	test/application_system_test_case.rb	/^class ApplicationSystemTestCase < ActionDispatch::SystemTestCase$/;"	c	inherits:ActionDispatch.SystemTestCase
+Channel	app/channels/application_cable/channel.rb	/^  class Channel < ActionCable::Channel::Base$/;"	c	class:ApplicationCable	inherits:ActionCable.Channel.Base
+Connection	app/channels/application_cable/connection.rb	/^  class Connection < ActionCable::Connection::Base$/;"	c	class:ApplicationCable	inherits:ActionCable.Connection.Base
+Course	app/models/course.rb	/^class Course < ApplicationRecord$/;"	c	inherits:ApplicationRecord
+CourseTest	test/models/course_test.rb	/^class CourseTest < ActiveSupport::TestCase$/;"	c	inherits:ActiveSupport.TestCase
+CoursesController	app/controllers/courses_controller.rb	/^class CoursesController < ApplicationController$/;"	c	inherits:ApplicationController
+CoursesControllerTest	test/controllers/courses_controller_test.rb	/^class CoursesControllerTest < ActionDispatch::IntegrationTest$/;"	c	inherits:ActionDispatch.IntegrationTest
+CoursesHelper	app/helpers/courses_helper.rb	/^module CoursesHelper$/;"	m
+CoursesTest	test/system/courses_test.rb	/^class CoursesTest < ApplicationSystemTestCase$/;"	c	inherits:ApplicationSystemTestCase
+CreateCourses	db/migrate/20171019141645_create_courses.rb	/^class CreateCourses < ActiveRecord::Migration[5.1]$/;"	c	inherits:ActiveRecord.Migration
+PagesController	app/controllers/pages_controller.rb	/^class PagesController < ApplicationController$/;"	c	inherits:ApplicationController
+PagesControllerTest	test/controllers/pages_controller_test.rb	/^class PagesControllerTest < ActionDispatch::IntegrationTest$/;"	c	inherits:ActionDispatch.IntegrationTest
+PagesHelper	app/helpers/pages_helper.rb	/^module PagesHelper$/;"	m
+SimpleUdemy	config/application.rb	/^module SimpleUdemy$/;"	m
+TestCase	test/test_helper.rb	/^class ActiveSupport::TestCase$/;"	c	class:ActiveSupport
+about	app/controllers/pages_controller.rb	/^  def about$/;"	f	class:PagesController
+change	db/migrate/20171019141645_create_courses.rb	/^  def change$/;"	f	class:CreateCourses
+course_params	app/controllers/courses_controller.rb	/^    def course_params$/;"	f	class:CoursesController
+create	app/controllers/courses_controller.rb	/^  def create$/;"	f	class:CoursesController
+destroy	app/controllers/courses_controller.rb	/^  def destroy$/;"	f	class:CoursesController
+edit	app/controllers/courses_controller.rb	/^  def edit$/;"	f	class:CoursesController
+home	app/controllers/pages_controller.rb	/^  def home$/;"	f	class:PagesController
+index	app/controllers/courses_controller.rb	/^  def index$/;"	f	class:CoursesController
+location	app/controllers/pages_controller.rb	/^  def location$/;"	f	class:PagesController
+new	app/controllers/courses_controller.rb	/^  def new$/;"	f	class:CoursesController
+set_course	app/controllers/courses_controller.rb	/^    def set_course$/;"	f	class:CoursesController
+show	app/controllers/courses_controller.rb	/^  def show$/;"	f	class:CoursesController
+update	app/controllers/courses_controller.rb	/^  def update$/;"	f	class:CoursesController
